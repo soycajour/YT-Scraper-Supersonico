@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "YT Scraper Supersónico",
+  "version": "2.0.0",
+  "description": "Extractor avanzado de Videos y Shorts de YouTube con Selección por Clic, Auto-Scroll inteligente, filtros de vistas y exportación.",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_title": "YT Scraper Supersónico (Abrir / Cerrar Panel)"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
